@@ -1,2 +1,74 @@
-Banti
+// Add another animal (similar to cat) to the AnimalInheritance example.
+
+package animal;
+
+public class Animal
+{  
+	public Animal()
+		{        
+		System.out.println("A new animal has been created!\n");       
+		} 	
+	public void sleep()
+		{        
+		System.out.println("An animal sleeps...");       
+		}    
+	public void eat()
+		{        
+		System.out.println("An animal eats...");
+		}
+	
+	public static void main(String args[])
+	{      
+		Cat demo = new Cat();      
+		demo.eat();      
+		demo.sleep();      
+		demo.purr(); 
+		Dog demon = new Dog();      
+		demon.eat();      
+		demon.sleep();      
+		demon.bark(); 
+	}  
+	public static class Cat extends Animal
+		{    
+			public Cat()
+			{        
+				super();        
+				System.out.println("A new cat has been created!\n");      
+			} 
+			public void sleep()
+			{        
+			System.out.println("A cat sleeps...");      
+			}    
+			public void purr()
+			{        
+			System.out.println("A cat purrs...\n");      
+			}      
+			public void eat()
+			{        
+			System.out.println("A cat eats...");
+			}
+			
+		}
+	public static class Dog extends Animal
+	{    
+		public Dog()
+		{        
+			super();        
+			System.out.println("A new dog has been created!\n");      
+		} 
+		public void sleep()
+		{        
+		System.out.println("A dog sleeps...");      
+		}    
+		public void bark()
+		{        
+		System.out.println("A dog barks...\n");      
+		}      
+		public void eat()
+		{        
+		System.out.println("A dog eats...");
+		}
+		
+	}
+	}
 
