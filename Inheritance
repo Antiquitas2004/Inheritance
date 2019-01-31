@@ -1,4 +1,7 @@
-// Add another animal (similar to cat) to the AnimalInheritance example.
+// Inheritance supports the concept of reusability and uses the keyword "extends". 
+// The class whose features are inherited is known as "super class"
+// The class that inherits the other class is known as "sub class"
+// Inheritance can be singular, multilevel, hierarchical or a hybrid.
 
 package animal;
 
@@ -71,4 +74,3 @@ public class Animal
 		
 	}
 	}
-
