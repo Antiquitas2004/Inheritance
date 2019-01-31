@@ -22,14 +22,14 @@ public class Animal
 	
 	public static void main(String args[])
 	{      
-		Cat demo = new Cat();      
-		demo.eat();      
-		demo.sleep();      
-		demo.purr(); 
-		Dog demon = new Dog();      
-		demon.eat();      
-		demon.sleep();      
-		demon.bark(); 
+		Cat cat = new Cat();      
+		cat.eat();      
+		cat.sleep();      
+		cat.purr(); 
+		Dog dog = new Dog();      
+		dog.eat();      
+		dog.sleep();      
+		dog.bark(); 
 	}  
 	public static class Cat extends Animal
 		{    
@@ -74,3 +74,4 @@ public class Animal
 		
 	}
 	}
+
