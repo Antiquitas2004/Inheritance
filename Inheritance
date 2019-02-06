@@ -3,6 +3,10 @@
 // The class that inherits the other class is known as "sub class"
 // Inheritance can be singular, multilevel, hierarchical or a hybrid.
 
+
+// Group members; Alexander Stabinski,Bradley Whitebread,Quoc Ngoc Nguyen, Alex Hernandez, Banti Yegezu, Danajha Izzard
+
+
 package animal;
 
 public class Animal
