@@ -1,10 +1,12 @@
-// Inheritance supports the concept of reusability and uses the keyword "extends". 
-// The class whose features are inherited is known as "super class"
-// The class that inherits the other class is known as "sub class"
-// Inheritance can be singular, multilevel, hierarchical or a hybrid.
-
-
+// Inheritance Group Project
 // Group members; Alexander Stabinski,Bradley Whitebread,Quoc Ngoc Nguyen, Alex Hernandez, Banti Yegezu, Danajha Izzard
+
+// Inheritance supports the concept of reusability and uses the keyword "extends". 
+// Extends derives a child class from a parent or invokes parent class constructor, override or methods.
+// The class whose features are inherited is known as "super class".
+// The class that inherits the other class is known as "sub class".
+// Inheritance can be singular, multilevel, hierarchical or a hybrid.
+// Every Java class inherits from Object, so familiarity with this superclass is fundamental to understanding the Java class hierarchy
 
 
 package animal;
