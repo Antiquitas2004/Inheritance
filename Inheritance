@@ -1,5 +1,5 @@
 // Inheritance Group Project
-// Group members; Alexander Stabinski,Bradley Whitebread,Quoc Ngoc Nguyen, Alex Hernandez, Banti Yegezu, Danajha Izzard
+// Group members; Alex Hernandez, Danajha Izzard, Quoc Ngoc Nguyen, Alexander Stabinski,Bradley Whitebread,Banti Yegezu
 
 // Inheritance supports the concept of reusability and uses the keyword "extends". 
 // Extends derives a child class from a parent or invokes parent class constructor, override or methods.
