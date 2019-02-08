@@ -13,6 +13,7 @@ package animal;
 
 public class Animal
 {  
+	// Parent Class Animal
 	public Animal()
 		{        
 		System.out.println("A new animal has been created: \n");       
@@ -25,7 +26,7 @@ public class Animal
 		{        
 		System.out.println("An animal eats...");
 		}
-	
+	// Traits of Cat and Dog Class
 	public static void main(String args[])
 	{      
 		Cat cat = new Cat();      
@@ -37,6 +38,7 @@ public class Animal
 		dog.sleep();      
 		dog.bark(); 
 	}  
+	// Child Class Cat
 	public static class Cat extends Animal
 		{    
 			public Cat()
@@ -58,6 +60,7 @@ public class Animal
 			}
 			
 		}
+	// Child Class Dog
 	public static class Dog extends Animal
 	{    
 		public Dog()
