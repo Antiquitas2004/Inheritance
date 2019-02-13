@@ -1,86 +1,162 @@
+
 // Inheritance Group Project: In this example Cat and Dog extend Animal
+
 // Group members; Alex Hernandez, Danajha Izzard, Quoc Ngoc Nguyen, Alexander Stabinski,Bradley Whitebread,Banti Yegezu
 
+
+
 // Inheritance supports the concept of reusability and uses the keyword "extends". 
+
 // Extends derives a child class from a parent or invokes parent class constructor, override or methods.
+
 // The class whose features are inherited is known as "super class".
+
 // The class that inherits the other class is known as "sub class".
+
 // Inheritance can be singular, multilevel, hierarchical or a hybrid.
+
 // Every Java class inherits from Object, familiarity with this superclass is fundamental to understanding the Java class hierarchy
 
-
-package animal;
-
 public class Animal
+
 {  
+
 	// Parent Class Animal
+
 	public Animal()
+
 		{        
+
 		System.out.println("A new animal has been created: \n");       
+
 		} 	
-	public void sleep()
+
+	public void sleep() //method
+
 		{        
+
 		System.out.println("An animal sleeps...");       
+
 		}    
-	public void eat()
+
+	public void eat() //method
+
 		{        
+
 		System.out.println("An animal eats...");
+
 		}
+
 	// Traits of Cat and Dog Class
+
 	public static void main(String args[])
+
 	{      
-		Cat cat = new Cat();      
+
+		Cat cat = new Cat(); //object declaration     
+
 		cat.eat();      
+
 		cat.sleep();      
+
 		cat.purr(); 
-		Dog dog = new Dog();      
+
+		Dog dog = new Dog(); //object declaration
+
 		dog.eat();      
+
 		dog.sleep();      
+
 		dog.bark(); 
+
 	}  
+
 	// Child Class Cat
+
 	public static class Cat extends Animal
+
 		{    
+
 			public Cat()
+
 			{        
+
 				super();        
+
 				System.out.println("A new cat has been created!\n");      
+
 			} 
+
 			public void sleep()
+
 			{        
+
 			System.out.println("A cat sleeps...");      
+
 			}    
-			public void purr()
+
+			public void purr() // Specific to the cat child class
+
 			{        
+
 			System.out.println("A cat purrs...\n");      
+
 			}      
+
 			public void eat()
+
 			{        
+
 			System.out.println("A cat eats...");
+
 			}
+
 			
+
 		}
+
 	// Child Class Dog
+
 	public static class Dog extends Animal
+
 	{    
+
 		public Dog()
+
 		{        
+
 			super();        
+
 			System.out.println("A new dog has been created!\n");      
+
 		} 
+
 		public void sleep()
+
 		{        
+
 		System.out.println("A dog sleeps...");      
+
 		}    
-		public void bark()
+
+		public void bark() //Specific to the dog child class
+
 		{        
+
 		System.out.println("A dog barks...\n");      
+
 		}      
+
 		public void eat()
+
 		{        
+
 		System.out.println("A dog eats...");
+
 		}
+
 		
-	}
+
 	}
 
+	}
